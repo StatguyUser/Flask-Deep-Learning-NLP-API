@@ -15,7 +15,7 @@ To access API for prediction purpose, URL is `http://localhost:5000/predict?text
 
 `import requests`
 
-`example_text = "I bought this product and its faulty. Feels like wasteage of money and time. I am not satisfied and want my money back. I will not recomment this."`
+`example_text = "A complete Bust: This game requires quicktime 5.0 to work...if you have a better version of quicktime (I have 7.5), it will ask you to install the quicktime available on the CD...if you click no, it will not let you play. So, I begrudgingly clicked yes on the third try, and it installed quicktime 5, THEN it tells me to please install the quicktime available on the disc. It KEPT telling me that, even after I uninstalled my version of quicktime 7.5, and reinstalled Barbie Rapunzel and quicktime 5. Very frustrating, and the game absolutely will not work for me. It keeps telling me over and over, to install quicktime 5, tho I've been through the installation process repeatedly. It is NOT my "operating system limitations". This is a brand new computer...merely weeks old with all the state of the art contraptions."`
 
 `requests.post('''http://localhost:5000/predict?text='''+example_text)`
 
