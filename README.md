@@ -18,3 +18,7 @@ To access API for prediction purpose, URL is `http://localhost:5000/predict?text
 `example_text = "I bought this product and its faulty. Feels like wasteage of money and time. I am not satisfied and want my money back. I will not recomment this."`
 
 `requests.post('''http://localhost:5000/predict?text='''+example_text)`
+
+Corresponding model files are in my other repo https://github.com/newbiestatguy/Amazon-Review-Classification_DeepLearning
+
+Feel free to reach out!!
