@@ -19,6 +19,6 @@ To access API for prediction purpose, URL is `http://localhost:5000/predict?text
 
 `requests.post('''http://localhost:5000/predict?text='''+example_text)`
 
-Corresponding model files are in my other repo https://github.com/newbiestatguy/Amazon-Review-Classification_DeepLearning
+Corresponding model files are in my other repo https://github.com/StatguyUser/Amazon-Review-Classification_DeepLearning
 
 Feel free to reach out!!
